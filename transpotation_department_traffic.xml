@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JPScore project="JPS-Project" version="0.8">
+    <traffic_constrains>
+        <doors>
+            <door trans_id="82" caption="NaN" state="open"/>
+        </doors>
+    </traffic_constrains>
+</JPScore>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geometry version="0.8" caption="corner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xsd.jupedsim.org/jps_geometry.xsd" unit="m">
+    <rooms>
+        <room id="0" caption="floor">
+            <subroom id="1" caption="room_1" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="32.5" py="36.75"/>
+                    <vertex px="33.25" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="36"/>
+                    <vertex px="33.25" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="36"/>
+                    <vertex px="33" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.75" py="36"/>
+                    <vertex px="32.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="36.75"/>
+                    <vertex px="32.5" py="36"/>
+                </polygon>
+            </subroom>
+            <subroom id="2" caption="room_2" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="33.25" py="36.75"/>
+                    <vertex px="34" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34" py="36"/>
+                    <vertex px="34" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34" py="36"/>
+                    <vertex px="33.75" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.5" py="36"/>
+                    <vertex px="33.25" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="36"/>
+                    <vertex px="33.25" py="36.75"/>
+                </polygon>
+            </subroom>
+            <subroom id="3" caption="room_3" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="34" py="36.75"/>
+                    <vertex px="34.75" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="36"/>
+                    <vertex px="34.75" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="36"/>
+                    <vertex px="34.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.25" py="36"/>
+                    <vertex px="34" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34" py="36"/>
+                    <vertex px="34" py="36.75"/>
+                </polygon>
+            </subroom>
+            <subroom id="4" caption="room_4" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="34.75" py="36.75"/>
+                    <vertex px="35.5" py="36.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.5" py="36.75"/>
+                    <vertex px="35.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.5" py="36"/>
+                    <vertex px="35.25" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35" py="36"/>
+                    <vertex px="34.75" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="36"/>
+                    <vertex px="34.75" py="36.75"/>
+                </polygon>
+            </subroom>
+            <subroom id="5" caption="lab_1" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="32.5" py="35.25"/>
+                    <vertex px="32.5" py="34.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="35.25"/>
+                    <vertex px="33" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="35.25"/>
+                    <vertex px="34" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.25" py="35.25"/>
+                    <vertex px="34.75" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="35.25"/>
+                    <vertex px="34.75" py="34.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="34.5"/>
+                    <vertex px="34.75" py="34.5"/>
+                </polygon>
+            </subroom>
+            <subroom id="6" caption="main_corridor" class="Corridor" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="35.5" py="36"/>
+                    <vertex px="35.25" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35" py="36"/>
+                    <vertex px="34.75" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="36"/>
+                    <vertex px="34.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.25" py="36"/>
+                    <vertex px="34" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34" py="36"/>
+                    <vertex px="33.75" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.5" py="36"/>
+                    <vertex px="33.25" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="36"/>
+                    <vertex px="33" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.75" py="36"/>
+                    <vertex px="32.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="35.75"/>
+                    <vertex px="32.5" py="36"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="35.5"/>
+                    <vertex px="32.5" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="32.5" py="35.25"/>
+                    <vertex px="33" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="33.25" py="35.25"/>
+                    <vertex px="34" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.25" py="35.25"/>
+                    <vertex px="34.75" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="35.25"/>
+                    <vertex px="34.75" py="34.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.75" py="34.5"/>
+                    <vertex px="35.5" py="34.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.5" py="34.5"/>
+                    <vertex px="35.5" py="35.25"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.5" py="35.25"/>
+                    <vertex px="35.5" py="36"/>
+                </polygon>
+            </subroom>
+            <crossings>
+                <crossing id="1" subroom1_id="6" subroom2_id="1">
+                    <vertex px="32.75" py="36"/>
+                    <vertex px="33" py="36"/>
+                </crossing>
+                <crossing id="2" subroom1_id="6" subroom2_id="2">
+                    <vertex px="33.5" py="36"/>
+                    <vertex px="33.75" py="36"/>
+                </crossing>
+                <crossing id="3" subroom1_id="6" subroom2_id="3">
+                    <vertex px="34.25" py="36"/>
+                    <vertex px="34.5" py="36"/>
+                </crossing>
+                <crossing id="4" subroom1_id="6" subroom2_id="4">
+                    <vertex px="35" py="36"/>
+                    <vertex px="35.25" py="36"/>
+                </crossing>
+                <crossing id="5" subroom1_id="6" subroom2_id="5">
+                    <vertex px="34" py="35.25"/>
+                    <vertex px="34.25" py="35.25"/>
+                </crossing>
+                <crossing id="6" subroom1_id="6" subroom2_id="5">
+                    <vertex px="33" py="35.25"/>
+                    <vertex px="33.25" py="35.25"/>
+                </crossing>
+            </crossings>
+        </room>
+    </rooms>
+    <transitions>
+        <transition id="0" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="32.5" py="35.75"/>
+            <vertex px="32.5" py="35.5"/>
+        </transition>
+    </transitions>
+    <Undefine/>
+</geometry>

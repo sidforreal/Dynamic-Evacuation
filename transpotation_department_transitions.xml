@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JPScore>
+    <transitions>
+        <transition id="0" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="32.5" py="35.75"/>
+            <vertex px="32.5" py="35.5"/>
+        </transition>
+    </transitions>
+</JPScore>
