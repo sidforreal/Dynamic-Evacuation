@@ -5,5 +5,13 @@
             <vertex px="32.5" py="35.75"/>
             <vertex px="32.5" py="35.5"/>
         </transition>
+        <transition id="1" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="6">
+            <vertex px="35" py="35.25"/>
+            <vertex px="35.25" py="35.25"/>
+        </transition>
+        <transition id="2" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="8">
+            <vertex px="35" py="34.75"/>
+            <vertex px="35.25" py="34.75"/>
+        </transition>
     </transitions>
 </JPScore>

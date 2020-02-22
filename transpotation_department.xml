@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <geometry version="0.8" caption="corner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xsd.jupedsim.org/jps_geometry.xsd" unit="m">
     <rooms>
+        <room id="7" caption="stair">
+            <subroom id="7" caption="stair" class="Stair" A_x="-1.46475e-5" B_y="-2" C_z="70.5005">
+                <polygon caption="wall">
+                    <vertex px="35" py="35.25"/>
+                    <vertex px="35" py="34.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.25" py="35.25"/>
+                    <vertex px="35.25" py="34.75"/>
+                </polygon>
+                <up px="0" py="0"/>
+                <down px="0" py="0"/>
+            </subroom>
+            <crossings/>
+        </room>
         <room id="0" caption="floor">
             <subroom id="1" caption="room_1" class="Office" A_x="0" B_y="0" C_z="0">
                 <polygon caption="wall">
@@ -186,28 +201,50 @@
                     <vertex px="35.5" py="36"/>
                 </polygon>
             </subroom>
+            <subroom id="8" caption="floor_1_temp_room" class="Office" A_x="0" B_y="0" C_z="1">
+                <polygon caption="wall">
+                    <vertex px="35" py="34.75"/>
+                    <vertex px="34.875" py="34.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.875" py="34.75"/>
+                    <vertex px="34.875" py="34.625"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="34.875" py="34.625"/>
+                    <vertex px="35.375" py="34.625"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.375" py="34.625"/>
+                    <vertex px="35.375" py="34.75"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="35.375" py="34.75"/>
+                    <vertex px="35.25" py="34.75"/>
+                </polygon>
+            </subroom>
             <crossings>
-                <crossing id="1" subroom1_id="6" subroom2_id="1">
+                <crossing id="0" subroom1_id="6" subroom2_id="1">
                     <vertex px="32.75" py="36"/>
                     <vertex px="33" py="36"/>
                 </crossing>
-                <crossing id="2" subroom1_id="6" subroom2_id="2">
+                <crossing id="1" subroom1_id="6" subroom2_id="2">
                     <vertex px="33.5" py="36"/>
                     <vertex px="33.75" py="36"/>
                 </crossing>
-                <crossing id="3" subroom1_id="6" subroom2_id="3">
+                <crossing id="2" subroom1_id="6" subroom2_id="3">
                     <vertex px="34.25" py="36"/>
                     <vertex px="34.5" py="36"/>
                 </crossing>
-                <crossing id="4" subroom1_id="6" subroom2_id="4">
+                <crossing id="3" subroom1_id="6" subroom2_id="4">
                     <vertex px="35" py="36"/>
                     <vertex px="35.25" py="36"/>
                 </crossing>
-                <crossing id="5" subroom1_id="6" subroom2_id="5">
+                <crossing id="4" subroom1_id="6" subroom2_id="5">
                     <vertex px="34" py="35.25"/>
                     <vertex px="34.25" py="35.25"/>
                 </crossing>
-                <crossing id="6" subroom1_id="6" subroom2_id="5">
+                <crossing id="5" subroom1_id="6" subroom2_id="5">
                     <vertex px="33" py="35.25"/>
                     <vertex px="33.25" py="35.25"/>
                 </crossing>
@@ -218,6 +255,14 @@
         <transition id="0" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
             <vertex px="32.5" py="35.75"/>
             <vertex px="32.5" py="35.5"/>
+        </transition>
+        <transition id="1" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="6">
+            <vertex px="35" py="35.25"/>
+            <vertex px="35.25" py="35.25"/>
+        </transition>
+        <transition id="2" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="8">
+            <vertex px="35" py="34.75"/>
+            <vertex px="35.25" py="34.75"/>
         </transition>
     </transitions>
     <Undefine/>
