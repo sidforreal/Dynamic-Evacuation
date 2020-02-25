@@ -2,7 +2,7 @@
 <JPScore project="JPS-Project" version="0.8">
     <traffic_constrains>
         <doors>
-            <door trans_id="0" caption="NaN" state="close"/>
+            <door trans_id="0" caption="NaN" state="open"/>
         </doors>
     </traffic_constrains>
 </JPScore>

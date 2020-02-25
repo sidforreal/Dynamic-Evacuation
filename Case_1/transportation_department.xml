@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geometry version="0.8" caption="corner" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xsd.jupedsim.org/jps_geometry.xsd" unit="m">
+    <rooms>
+        <room id="7" caption="stair">
+            <subroom id="7" caption="stairs" class="Stair" A_x="0" B_y="-0.5" C_z="2">
+                <polygon caption="wall">
+                    <vertex px="14" py="4"/>
+                    <vertex px="14" py="2"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="15" py="4"/>
+                    <vertex px="15" py="2"/>
+                </polygon>
+                <up px="0" py="0"/>
+                <down px="0" py="0"/>
+            </subroom>
+            <crossings/>
+        </room>
+        <room id="0" caption="floor">
+            <subroom id="1" caption="office_1" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="4" py="10"/>
+                    <vertex px="7" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="10"/>
+                    <vertex px="4" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="7"/>
+                    <vertex px="5" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="6" py="7"/>
+                    <vertex px="7" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="7"/>
+                    <vertex px="7" py="10"/>
+                </polygon>
+            </subroom>
+            <subroom id="2" caption="office_2" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="7" py="10"/>
+                    <vertex px="10" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="7"/>
+                    <vertex px="7" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="7"/>
+                    <vertex px="8" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="9" py="7"/>
+                    <vertex px="10" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="10" py="7"/>
+                    <vertex px="10" py="10"/>
+                </polygon>
+            </subroom>
+            <subroom id="3" caption="office_3" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="10" py="10"/>
+                    <vertex px="13" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="10" py="7"/>
+                    <vertex px="10" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="10"/>
+                    <vertex px="13" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="10" py="7"/>
+                    <vertex px="11" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="12" py="7"/>
+                    <vertex px="13" py="7"/>
+                </polygon>
+            </subroom>
+            <subroom id="4" caption="office_4" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="13" py="10"/>
+                    <vertex px="16" py="10"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="10"/>
+                    <vertex px="13" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="7"/>
+                    <vertex px="14" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="15" py="7"/>
+                    <vertex px="16" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="16" py="7"/>
+                    <vertex px="16" py="10"/>
+                </polygon>
+            </subroom>
+            <subroom id="5" caption="lab_1" class="Office" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="4" py="4"/>
+                    <vertex px="6" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="4"/>
+                    <vertex px="10" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="11" py="4"/>
+                    <vertex px="13" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="4"/>
+                    <vertex px="4" py="1"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="1"/>
+                    <vertex px="13" py="1"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="1"/>
+                    <vertex px="13" py="4"/>
+                </polygon>
+            </subroom>
+            <subroom id="6" caption="corridor" class="Corridor" A_x="0" B_y="0" C_z="0">
+                <polygon caption="wall">
+                    <vertex px="4" py="7"/>
+                    <vertex px="5" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="6" py="7"/>
+                    <vertex px="7" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="7"/>
+                    <vertex px="8" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="9" py="7"/>
+                    <vertex px="10" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="10" py="7"/>
+                    <vertex px="11" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="12" py="7"/>
+                    <vertex px="13" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="7"/>
+                    <vertex px="14" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="15" py="7"/>
+                    <vertex px="16" py="7"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="7"/>
+                    <vertex px="4" py="6"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="5"/>
+                    <vertex px="4" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="4" py="4"/>
+                    <vertex px="6" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="7" py="4"/>
+                    <vertex px="10" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="11" py="4"/>
+                    <vertex px="13" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="16" py="7"/>
+                    <vertex px="16" py="4"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="16" py="4"/>
+                    <vertex px="16" py="1"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="1"/>
+                    <vertex px="16" py="1"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13" py="1"/>
+                    <vertex px="13" py="4"/>
+                </polygon>
+            </subroom>
+            <subroom id="8" caption="floor_1" class="Office" A_x="0" B_y="0" C_z="1">
+                <polygon caption="wall">
+                    <vertex px="15" py="2"/>
+                    <vertex px="15.5" py="2"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="15.5" py="2"/>
+                    <vertex px="15.5" py="1.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="15.5" py="1.5"/>
+                    <vertex px="13.5" py="1.5"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13.5" py="1.5"/>
+                    <vertex px="13.5" py="2"/>
+                </polygon>
+                <polygon caption="wall">
+                    <vertex px="13.5" py="2"/>
+                    <vertex px="14" py="2"/>
+                </polygon>
+            </subroom>
+            <crossings>
+                <crossing id="0" subroom1_id="1" subroom2_id="6">
+                    <vertex px="5" py="7"/>
+                    <vertex px="6" py="7"/>
+                </crossing>
+                <crossing id="1" subroom1_id="2" subroom2_id="6">
+                    <vertex px="8" py="7"/>
+                    <vertex px="9" py="7"/>
+                </crossing>
+                <crossing id="2" subroom1_id="3" subroom2_id="6">
+                    <vertex px="11" py="7"/>
+                    <vertex px="12" py="7"/>
+                </crossing>
+                <crossing id="3" subroom1_id="4" subroom2_id="6">
+                    <vertex px="14" py="7"/>
+                    <vertex px="15" py="7"/>
+                </crossing>
+                <crossing id="4" subroom1_id="5" subroom2_id="6">
+                    <vertex px="6" py="4"/>
+                    <vertex px="7" py="4"/>
+                </crossing>
+                <crossing id="5" subroom1_id="5" subroom2_id="6">
+                    <vertex px="10" py="4"/>
+                    <vertex px="11" py="4"/>
+                </crossing>
+            </crossings>
+        </room>
+    </rooms>
+    <transitions>
+        <transition id="0" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="1" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="6">
+            <vertex px="14" py="4"/>
+            <vertex px="15" py="4"/>
+        </transition>
+        <transition id="2" caption="exit" type="emergency" room1_id="7" subroom1_id="7" room2_id="0" subroom2_id="8">
+            <vertex px="14" py="2"/>
+            <vertex px="15" py="2"/>
+        </transition>
+    </transitions>
+    <Undefine/>
+</geometry>
