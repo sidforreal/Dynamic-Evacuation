@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JPScore>
+    <transitions>
+        <transition id="0" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="1" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="2" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="3" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="4" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+        <transition id="5" caption="exit" type="emergency" room1_id="0" subroom1_id="6" room2_id="-1" subroom2_id="-1">
+            <vertex px="4" py="6"/>
+            <vertex px="4" py="5"/>
+        </transition>
+    </transitions>
+</JPScore>

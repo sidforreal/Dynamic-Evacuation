@@ -3,8 +3,6 @@
     <traffic_constrains>
         <doors>
             <door trans_id="0" caption="NaN" state="open"/>
-            <door trans_id="1" caption="NaN" state="close"/>
-            <door trans_id="2" caption="NaN" state="open"/>
         </doors>
     </traffic_constrains>
 </JPScore>
