@@ -8,7 +8,7 @@
 	</header>
 
 	<geometry>
-	<file location= "test_ground_floor.xml"/>
+	<file location= "case_1_first_floor.xml"/>
 	</geometry>
 
 	<AttributeDescription>

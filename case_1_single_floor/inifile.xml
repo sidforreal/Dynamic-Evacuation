@@ -9,10 +9,10 @@ xsi:noNamespaceSchemaLocation="../../xsd/jps_ini_core.xsd">
     <seed>1254</seed>
     <max_sim_time>200</max_sim_time>
     <!-- geometry file -->
-    <geometry>transportation_department.xml</geometry>
+    <geometry>case_1_first_floor.xml</geometry>
     <!-- trajectories file and format -->
     <trajectories format="xml-plain" fps="8">
-      <file location="tranportation_department_traj.xml" />
+      <file location="case_1_first_floor_traj.xml" />
     </trajectories>
     <!-- where to store the logs -->
     <!--<logfile>log.txt</logfile> -->
@@ -28,7 +28,11 @@ xsi:noNamespaceSchemaLocation="../../xsd/jps_ini_core.xsd">
   <!--persons information and distribution -->
   <agents operational_model_id="1">
     <agents_distribution>
-      <group group_id="0" agent_parameter_id="1" room_id="0" subroom_id="0" number="20" goal_id="-1" router_id="1" />
+      <group group_id="0" agent_parameter_id="1" room_id="0" subroom_id="1" number="4" goal_id="-1" router_id="1" />
+      <group group_id="1" agent_parameter_id="1" room_id="0" subroom_id="2" number="4" goal_id="-1" router_id="1" />
+      <group group_id="2" agent_parameter_id="1" room_id="0" subroom_id="3" number="4" goal_id="-1" router_id="1" />
+      <group group_id="3" agent_parameter_id="1" room_id="0" subroom_id="4" number="4" goal_id="-1" router_id="1" />
+      <group group_id="4" agent_parameter_id="1" room_id="0" subroom_id="5" number="25" goal_id="-1" router_id="1" />
     </agents_distribution>
   </agents>
 
