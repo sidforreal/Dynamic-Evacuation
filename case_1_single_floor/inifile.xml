@@ -7,13 +7,15 @@ xsi:noNamespaceSchemaLocation="../../xsd/jps_ini_core.xsd">
   <header>
     <!-- seed used for initialising random generator -->
     <seed>1254</seed>
-    <max_sim_time>200</max_sim_time>
+    <max_sim_time>100</max_sim_time>
     <!-- geometry file -->
     <geometry>case_1_first_floor.xml</geometry>
     <!-- trajectories file and format -->
     <trajectories format="xml-plain" fps="8">
       <file location="case_1_first_floor_traj.xml" />
     </trajectories>
+
+    <events_file>events.xml</events_file>
     <!-- where to store the logs -->
     <!--<logfile>log.txt</logfile> -->
   </header>
